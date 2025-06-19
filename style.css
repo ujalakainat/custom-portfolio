@@ -1,0 +1,174 @@
+/*
+Theme Name: Custom Portfolio
+Theme URI: https://custom-portfolio.com
+Author: UJala kainat
+Version: 1.0
+*/
+
+/*Archive Page css*/
+.archive-wrapper {
+  max-width: 1200px;
+  margin: 40px auto;
+  padding: 0 20px;
+}
+.archive-title {
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 2.5rem;
+}
+.filter-form {
+  text-align: center;
+  margin-bottom: 40px;
+}
+.filter-form input[type="date"] {
+  padding: 8px;
+  margin: 0 10px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+.filter-form input[type="submit"],
+.filter-form a.clear-button {
+  padding: 8px 16px;
+  background-color: #025fa1;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  text-decoration: none;
+  margin-left: 10px;
+}
+.projects-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+.project-card {
+  background: #f9f9f9;
+  border: 1px solid #e1e1e1;
+  border-radius: 8px;
+  padding: 20px;
+  width: 300px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+.project-card h2 {
+  margin-top: 0;
+  font-size: 20px;
+  color: #025fa1;
+}
+.project-card a {
+  text-decoration: none;
+  color: #025fa1;
+}
+.badge {
+  background: #025fa1;
+  color: white;
+  padding: 3px 8px;
+  border-radius: 4px;
+  font-size: 12px;
+}
+/*Single Project Page css*/
+.single-wrapper {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 40px 20px;
+}
+.single-project {
+  background: #ffffff;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.08);
+}
+.single-project h1 {
+  color: #025fa1;
+  font-size: 2.2rem;
+  margin-bottom: 20px;
+}
+.single-project p {
+  margin: 10px 0;
+  font-size: 1rem;
+  line-height: 1.6;
+}
+.single-project a {
+  color: #0073aa;
+  text-decoration: none;
+}
+.single-project a:hover {
+  text-decoration: underline;
+}
+
+/*header*/
+/* Basic styling */
+.main-menu {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.main-menu li {
+  position: relative;
+}
+
+.main-menu li a {
+  text-decoration: none;
+  padding: 10px 15px;
+  display: block;
+  color: #111;
+}
+
+/* Dropdown */
+.main-menu ul {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  list-style: none;
+  background: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  z-index: 999;
+}
+
+.main-menu li:hover > ul {
+  display: block;
+}
+
+.main-menu ul li a {
+  white-space: nowrap;
+}
+/* Basic styling */
+.main-menu {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.main-menu li {
+  position: relative;
+}
+
+.main-menu li a {
+  text-decoration: none;
+  padding: 10px 15px;
+  display: block;
+  color: #111;
+}
+
+/* Dropdown */
+.main-menu ul {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  list-style: none;
+  background: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  z-index: 999;
+}
+
+.main-menu li:hover > ul {
+  display: block;
+}
+
+.main-menu ul li a {
+  white-space: nowrap;
+}
